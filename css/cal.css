@@ -1,0 +1,157 @@
+body {
+  background: lightblue;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.month {
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.month-header {
+  margin: 0 0 10px;
+  background: #0077ff;
+  color: white;
+  padding: 5px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #eee;
+}
+
+.table th {
+  background: #ddd;
+}
+
+.table td {
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.table td.holiday {
+  background: #ffcccc;
+  color: darkred;
+  font-weight: bold;
+}
+
+
+#overlay {
+  display: none; 
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.6);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+}
+
+#videoContainer {
+  background: rgb(61, 61, 61);
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  max-width: 90%;
+}
+
+#holidayVideo {
+  max-width: 80vw;
+  max-height: 60vh;
+  margin-bottom: 10px;
+}
+
+#backBtn {
+  padding: 8px 16px;
+  background: #ff4444;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#backBtn:hover {
+  background: #cc0000;
+}
+
+.footer {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #333;
+}
+
+
+#calendarBgVideo {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  display: none;
+}
+
+
+.holiday {
+  background: #ffcccc;
+  cursor: pointer;
+}
+
+#overlay {
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.6);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+}
+
+#videoContainer {
+  background: rgb(78, 78, 78);
+  
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
+#holidayVideo {
+  width: 1500px;
+  height: 2660px;
+}
+
+#backBtn {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background: #ff4444;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+
+}
