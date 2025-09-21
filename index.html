@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/cal.css">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CALENDAR 2069</title>
+
+</head>
+<body>
+
+  
+
+
+<div class="container">
+  <h1>CALENDAR 2069</h1>
+  <div class="calendar">
+
+    <video id="calendarBgVideo" autoplay muted loop></video>
+    
+<div class="month">
+  
+  <div class="month-header">JANUARY</div>
+  <table class="table" >
+    <thead>
+      <tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="holiday" onclick="playHoliday('New Year\'s Day','bedyow/jan1.mp4')">1</td>
+      </tr>
+      <tr><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td></tr>
+      <tr><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td></tr>
+      <tr><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td></tr>
+      <tr><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td></tr>
+      <tr><td>30</td><td>31</td><td></td><td></td><td></td><td></td><td></td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="month">
+  <div class="month-header">FEBRUARY</div>
+  <table class="table">
+    <thead>
+      <tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr>
+    </thead>
+    <tbody>
+      <tr><td></td><td></td><td></td><td></td><td></td><td>1</td><td>2</td></tr>
+      <tr><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr>
+      <tr><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td></tr>
+      <tr><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td></tr>
+      <tr><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td><td></td><td></td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="month">
+  <div class="month-header">MARCH</div>
+  <table class="table">
+    <thead>
+      <tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr>
+    </thead>
+    <tbody>
+      <tr><td></td><td></td><td></td><td></td><td></td><td>1</td><td>2</td></tr>
+      <tr><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr>
+      <tr><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td></tr>
+      <tr><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td></tr>
+      <tr><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td><td>30</td></tr>
+      <tr><td>31</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="month">
+  <div class="month-header">APRIL</div>
+  <table class="table">
+    <thead><tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr></thead>
+    <tbody>
+      <tr><td></td><td></td><td></td><td></td><td></td><td>1</td><td>2</td></tr>
+      <tr><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td class="holiday" onclick="playHoliday('Araw ng Kagitingan','bedyow/apr9.mp4')">9</td></tr>
+      <tr><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td></tr>
+      <tr><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td></tr>
+      <tr><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td><td>30</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="month">
+  <div class="month-header">MAY</div>
+  <table class="table">
+    <thead><tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr></thead>
+    <tbody>
+      <tr><td></td><td class="holiday" onclick="playHoliday('Labor Day','bedyow/may1.mp4')">1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr>
+      <tr><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td></tr>
+      <tr><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td></tr>
+      <tr><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td></tr>
+      <tr><td>28</td><td>29</td><td>30</td><td>31</td><td></td><td></td><td></td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="month">
+  <div class="month-header">JUNE</div>
+  <table class="table">
+    <thead><tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr></thead>
+    <tbody>
+      <tr><td></td><td></td><td></td><td>1</td><td>2</td><td>3</td><td>4</td></tr>
+      <tr><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td></tr>
+      <tr><td class="holiday" onclick="playHoliday('Independence Day','bedyow/jun12.mp4')">12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td></tr>
+      <tr><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td></tr>
+      <tr><td>26</td><td>27</td><td>28</td><td>29</td><td>30</td><td></td><td></td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="month">
+  <div class="month-header">JULY</div>
+  <table class="table">
+    <thead><tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr></thead>
+    <tbody>
+      <tr><td></td><td></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr>
+      <tr><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td></tr>
+      <tr><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td></tr>
+      <tr><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td></tr>
+      <tr><td>27</td><td>28</td><td>29</td><td>30</td><td>31</td><td></td><td></td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="month">
+  <div class="month-header">AUGUST</div>
+  <table class="table">
+    <thead><tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr></thead>
+    <tbody>
+      <tr><td></td><td></td><td></td><td></td><td>1</td><td>2</td><td>3</td></tr>
+      <tr><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr>
+      <tr><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td></tr>
+      <tr><td>18</td><td>19</td><td>20</td><td class="holiday" onclick="playHoliday('Ninoy Aquino Day','bedyow/aug21.mp4')">21</td><td>22</td><td>23</td><td>24</td></tr>
+      <tr><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td><td>30</td><td>31</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="month">
+  <div class="month-header">SEPTEMBER</div>
+  <table class="table">
+    <thead><tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr></thead>
+    <tbody>
+      <tr><td></td><td></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr>
+      <tr><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td></tr>
+      <tr><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td></tr>
+      <tr><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td></tr>
+      <tr><td>27</td><td>28</td><td>29</td><td>30</td><td></td><td></td><td></td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="month">
+  <div class="month-header">OCTOBER</div>
+  <table class="table">
+    <thead><tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr></thead>
+    <tbody>
+      <tr><td></td><td></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr>
+      <tr><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td></tr>
+      <tr><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td></tr>
+      <tr><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td></tr>
+      <tr><td>27</td><td>28</td><td>29</td><td>30</td><td>31</td><td></td><td></td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="month">
+  <div class="month-header">NOVEMBER</div>
+  <table class="table">
+    <thead><tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr></thead>
+    <tbody>
+      <tr><td class="holiday" onclick="playHoliday('All Saints Day','bedyow/nov1.mp4')">1</td><td class="holiday" onclick="playHoliday('All Souls Day','bedyow/nov2.mp4')">2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td></tr>
+      <tr><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td></tr>
+      <tr><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td></tr>
+      <tr><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td></tr>
+      <tr><td>29</td><td class="holiday" onclick="playHoliday('Bonifacio Day','bedyow/nov30.mp4')">30</td><td></td><td></td><td></td><td></td><td></td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="month">
+  <div class="month-header">DECEMBER</div>
+  <table class="table">
+    <thead><tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr></thead>
+    <tbody>
+      <tr><td></td><td></td><td></td><td></td><td></td><td>1</td><td>2</td></tr>
+      <tr><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr>
+      <tr><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td></tr>
+      <tr><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td></tr>
+      <tr><td>24</td><td class="holiday" onclick="playHoliday('Christmas Day','bedyow/dec25.mp4')">25</td><td>26</td><td>27</td><td>28</td><td class="holiday" onclick="playHoliday('Rizal Day','bedyow/dec30.mp4')">30</td></tr>
+    </tbody>
+  </table>
+</div>
+
+  </div>
+</div>
+
+<!-- Overlay video -->
+<div id="overlay">
+  
+  <div id="videoContainer" >
+  
+    <video id="holidayVideo" controls>
+      <source id="videoSource" src="" type="video/mp4">
+    </video><br>
+    <button id="backBtn" onclick="goBack()">⬅ Back</button>
+    
+  </div>
+</div>
+
+<script src="js/cal.js">
+
+</script>
+
+<footer class="footer">
+  <p>&copy; 2069 Calendar Project | Designed by You</p>
+</footer>
+</body>
+</html>
